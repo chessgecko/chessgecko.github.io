@@ -1,0 +1,387 @@
+body,html{
+  height: 100%;
+}
+.main {
+  margin-top: 100%;
+  background-color: #fff;
+  font-family: Arial;
+}
+
+.view-wrapper{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -40px;
+}
+
+.header {
+  font-size: 18px;
+  background-color: #151515;
+
+  margin-top: 0px;
+  line-height: 40px;
+  padding-bottom: 19px;
+
+  height: 100%;
+  /*height: 60px;*/
+  width: 100%;
+}
+
+.image-header{
+  margin-bottom: 0px;
+  padding-bottom: 0px; 
+}
+
+.nameImage {
+  margin-top: -57px;
+  /*margin-left: 45%;*/
+}
+
+.image-header-2:hover{
+  cursor: pointer;
+}
+
+#header-links-big {
+  text-align: center;
+  margin-left: 10%;
+}
+#header-links-small {
+  color: #fff;
+  float: right;
+  margin-right: 0px;
+  margin-top: -50px;
+  width: 500px;
+
+}
+
+#header-links-small a{
+  float: right;
+}
+
+#title {
+  color: #fff;
+  position: relative;
+  padding-top: 35px;
+  display: inline;
+  font-size: 24px;
+  margin-left: 40%;
+  top: 8px;
+}
+
+.header-link-wrap a{
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#header-links-big a{
+  font-size: 24px;
+  vertical-align: top;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.header-link-wrap a:hover{
+  color: #00C7F8;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*
+header ends here//////////////////////////////////
+
+
+
+*/
+
+
+.dumbbell-image {
+
+  margin-top: 50px;
+
+}
+
+.main h3 {
+  text-align: center
+}
+.front-big {
+  font-size: 56px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.front-body{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.main-detail-title{
+  font-size: 32px;
+  text-align: center;
+  color: #4A789C;
+}
+
+.main-detail-body{
+  margin-top: 20px;
+}
+
+.col-lg-6 img {
+  margin-top: 100px;
+}
+
+.main-detail {
+  margin-top: 100px;
+}
+
+.footer {
+  background-color: #2C3331;
+  color: #fff;
+  height: 40px;
+}
+
+.main-bottom{
+  margin-top: 10px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.main-bottom .front-big{
+  margin-top: 30px;
+}
+
+.main-bottom p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main-bottom button{
+  font-size: 20px;
+  width: 20%;
+  height: 50px;
+}
+
+.main-bottom-button{
+  margin-right: 40px;
+}
+
+.footer p{
+  margin-top: 10px;
+}
+
+.canvasArrows{
+  width: 100%;
+}
+
+/*
+login and register pages ////////////////////////////////////
+*/
+
+.Auth-header {
+  font-size: 18px;
+  background-color: #151515;
+
+  margin-top: 0px;
+  line-height: 40px;
+  padding-bottom: 19px;
+
+  height: 60px;
+  width: 100%;
+}
+
+.login-form {
+  margin-top: 100px;
+}
+
+.form-signin-heading{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-control{
+  position: relative;
+  left: 20%;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.checkbox {
+  text-align: center;
+}
+
+.btn-primary {
+
+  width: 100%;
+  left: 70%;
+  margin-bottom: 30px;
+}
+
+.button-wrapper{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.reset-link a{
+  color: black; 
+  font-size: 18px; 
+}
+
+.reset-link{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.reset-link p{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.reset-link button{
+  margin-bottom: 30px;
+  background-color: #7FCB9F;
+  border-color: #7FCB9F;
+}
+.reset-link button:hover{
+  background-color: #69B388;
+  border-color: #69B388;
+}
+
+/*
+start of profile page /////////////////////////
+*/
+
+.prof{
+  margin-top: 50px;
+}
+.prof-header {
+  font-size: 18px;
+  background-color: #151515;
+
+  margin-top: 0px;
+  line-height: 40px;
+  padding-bottom: 19px;
+
+  height: 60px;
+  width: 100%;
+}
+
+.prof-header a {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: -40px;
+}
+.prof-header a:hover{
+  color: #00C7F8;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.prof-info {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+/*
+ * Sidebar
+ */
+
+ /* Hide for mobile, show later */
+ .sidebar {
+  display: none;
+  height: 350px;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+
+.chartS {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+.chartL {
+  height: 250px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.prof-cent-image {
+  margin-top: 0px;
+}
+.prof-side-image {
+  margin-top: -92px;
+}
+
+.graphrow {
+  margin-bottom: 30px;
+}
+
+
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+  height: auto;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav-sidebar > li > a:hover {
+  cursor:pointer;
+}
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+.workouts-canvas{
+  margin-bottom: 30px;
+  margin-top: 20px;
+  height: 400px;
+  width: 1000px;
+}
+
+#workouts-canvas{
+  height: 400px;
+  width: 1000px;
+
+}
+
+@font-face {
+  font-family: MuscleFont;
+  src: url('continuum/contm.ttf');
+}
+
+@font-face {
+  font-family: caviar;
+  src: url('caviar_dreams/CaviarDreams.ttf');
+}
+

@@ -1,0 +1,150 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-heroku' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'generator-heroku', null ]
+5 verbose cache add name=undefined spec="generator-heroku" args=["generator-heroku",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'generator-heroku',
+6 verbose parsed url   path: 'generator-heroku',
+6 verbose parsed url   href: 'generator-heroku' }
+7 silly lockFile fdb71f35-generator-heroku generator-heroku
+8 verbose lock generator-heroku /Users/davidsilin/.npm/fdb71f35-generator-heroku.lock
+9 silly lockFile fdb71f35-generator-heroku generator-heroku
+10 silly lockFile fdb71f35-generator-heroku generator-heroku
+11 verbose addNamed [ 'generator-heroku', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 9c1bf07b-generator-heroku generator-heroku@
+14 verbose lock generator-heroku@ /Users/davidsilin/.npm/9c1bf07b-generator-heroku.lock
+15 silly addNameRange { name: 'generator-heroku', range: '*', hasData: false }
+16 verbose request where is /generator-heroku
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 1b9fc0dd3558a9e6
+19 verbose url raw /generator-heroku
+20 verbose url resolving [ 'https://registry.npmjs.org/', './generator-heroku' ]
+21 verbose url resolved https://registry.npmjs.org/generator-heroku
+22 verbose request where is https://registry.npmjs.org/generator-heroku
+23 info trying registry request attempt 1 at 18:44:24
+24 http GET https://registry.npmjs.org/generator-heroku
+25 http 200 https://registry.npmjs.org/generator-heroku
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Sun, 28 Sep 2014 23:44:24 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"61HUS2UF9K3TEGUR2HNO5AAZM"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '18297',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-ord1729-ORD',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1411947864.639470,VS0,VE159',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'generator-heroku', range: '*', hasData: true }
+28 silly addNameRange versions [ 'generator-heroku',
+28 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.0.6', '0.0.7' ] ]
+29 verbose addNamed [ 'generator-heroku', '0.0.7' ]
+30 verbose addNamed [ '0.0.7', '0.0.7' ]
+31 silly lockFile 78e0164f-generator-heroku-0-0-7 generator-heroku@0.0.7
+32 verbose lock generator-heroku@0.0.7 /Users/davidsilin/.npm/78e0164f-generator-heroku-0-0-7.lock
+33 silly lockFile 8108989b-eroku-generator-heroku-0-0-7-tgz https://registry.npmjs.org/generator-heroku/-/generator-heroku-0.0.7.tgz
+34 verbose lock https://registry.npmjs.org/generator-heroku/-/generator-heroku-0.0.7.tgz /Users/davidsilin/.npm/8108989b-eroku-generator-heroku-0-0-7-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-heroku/-/generator-heroku-0.0.7.tgz',
+35 verbose addRemoteTarball   '5f28759f95fe2b8754cb2b788497cb94bed1e22c' ]
+36 info retry fetch attempt 1 at 18:44:24
+37 verbose fetch to= /var/folders/c1/k1p32fvj1t32t4yd7jg80p3c0000gn/T/npm-40576-968lqbpF/registry.npmjs.org/generator-heroku/-/generator-heroku-0.0.7.tgz
+38 http GET https://registry.npmjs.org/generator-heroku/-/generator-heroku-0.0.7.tgz
+39 http 200 https://registry.npmjs.org/generator-heroku/-/generator-heroku-0.0.7.tgz
+40 silly lockFile 8108989b-eroku-generator-heroku-0-0-7-tgz https://registry.npmjs.org/generator-heroku/-/generator-heroku-0.0.7.tgz
+41 silly lockFile 8108989b-eroku-generator-heroku-0-0-7-tgz https://registry.npmjs.org/generator-heroku/-/generator-heroku-0.0.7.tgz
+42 silly lockFile 78e0164f-generator-heroku-0-0-7 generator-heroku@0.0.7
+43 silly lockFile 78e0164f-generator-heroku-0-0-7 generator-heroku@0.0.7
+44 silly lockFile 9c1bf07b-generator-heroku generator-heroku@
+45 silly lockFile 9c1bf07b-generator-heroku generator-heroku@
+46 silly resolved [ { name: 'generator-heroku',
+46 silly resolved     version: '0.0.7',
+46 silly resolved     description: 'A heroku setup generator for Yeoman',
+46 silly resolved     keywords: [ 'yeoman-generator' ],
+46 silly resolved     homepage: 'https://github.com/passy/generator-heroku',
+46 silly resolved     bugs: { url: 'https://github.com/passy/generator-heroku/issues' },
+46 silly resolved     author:
+46 silly resolved      { name: 'Pascal Hartig',
+46 silly resolved        email: 'phartig@rdrei.net',
+46 silly resolved        url: 'https://github.com/passy' },
+46 silly resolved     main: 'app/index.js',
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git://github.com/passy/generator-heroku.git' },
+46 silly resolved     scripts: { test: 'mocha' },
+46 silly resolved     dependencies: { 'yeoman-generator': '~0.14.0', chalk: '~0.3.0' },
+46 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+46 silly resolved     devDependencies: { mocha: '~1.14.0' },
+46 silly resolved     engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     readme: '# Generator heroku\n[![Build Status](https://secure.travis-ci.org/passy/generator-heroku.png?branch=master)](https://travis-ci.org/passy/generator-heroku) [![NPM version](https://badge.fury.io/js/generator-heroku.png)](http://badge.fury.io/js/generator-heroku) [![Dependency Status](https://gemnasium.com/passy/generator-heroku.png)](https://gemnasium.com/passy/generator-heroku)\n\nA generator for Yeoman that sets up heroku hosting for you by creating a\n`Procfile` and setting up a node-based static http server using\n[static](https://github.com/hongymagic/statik).\n\n## Roadmap\n\nOnce there are placeholders in Yeoman, this will automatically rewire your\nGruntfile to automatically copy the required files. For now, you have to\nmanually adjust your build step for this to work comfortably.\n\n## Getting started\n- Make sure you have [yo](https://github.com/yeoman/yo) installed:\n    `npm install -g yo`\n- Install the generator: `npm install -g generator-heroku`\n- Make sure you are in the root of your existing Yeoman application.\n- Run: `yo heroku`\n\n## Options\n\n- `--dist` lets you choose a distribution directory other than the default `dist`.\n\n## License\n[MIT License](http://en.wikipedia.org/wiki/MIT_License)\n',
+46 silly resolved     readmeFilename: 'README.md',
+46 silly resolved     _id: 'generator-heroku@0.0.7',
+46 silly resolved     dist:
+46 silly resolved      { shasum: '5f28759f95fe2b8754cb2b788497cb94bed1e22c',
+46 silly resolved        tarball: 'http://registry.npmjs.org/generator-heroku/-/generator-heroku-0.0.7.tgz' },
+46 silly resolved     _from: 'generator-heroku@',
+46 silly resolved     _npmVersion: '1.3.14',
+46 silly resolved     _npmUser: { name: 'passy', email: 'phartig@rdrei.net' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     directories: {},
+46 silly resolved     _shasum: '5f28759f95fe2b8754cb2b788497cb94bed1e22c',
+46 silly resolved     _resolved: 'https://registry.npmjs.org/generator-heroku/-/generator-heroku-0.0.7.tgz' } ]
+47 info install generator-heroku@0.0.7 into /usr/local/lib
+48 info installOne generator-heroku@0.0.7
+49 verbose lib/node_modules/generator-heroku unbuild
+50 verbose tar unpack /Users/davidsilin/.npm/generator-heroku/0.0.7/package.tgz
+51 silly lockFile 398e30e5-ib-node-modules-generator-heroku tar:///usr/local/lib/node_modules/generator-heroku
+52 verbose lock tar:///usr/local/lib/node_modules/generator-heroku /Users/davidsilin/.npm/398e30e5-ib-node-modules-generator-heroku.lock
+53 silly lockFile 46566474-nerator-heroku-0-0-7-package-tgz tar:///Users/davidsilin/.npm/generator-heroku/0.0.7/package.tgz
+54 verbose lock tar:///Users/davidsilin/.npm/generator-heroku/0.0.7/package.tgz /Users/davidsilin/.npm/46566474-nerator-heroku-0-0-7-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-heroku'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-heroku']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/generator-heroku',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/generator-heroku',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 13.2.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "generator-heroku"
+60 error cwd /Users/davidsilin/Desktop/web stuff/fitcon
+61 error node -v v0.10.32
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/generator-heroku
+64 error fstream_path /usr/local/lib/node_modules/generator-heroku
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-heroku'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
